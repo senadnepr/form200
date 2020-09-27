@@ -8,11 +8,19 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {ReactiveFormsModule} from '@angular/forms';
+import {MatNativeDateModule} from '@angular/material/core';
+import {MatMomentDateModule} from '@angular/material-moment-adapter';
+import { HttpClientModule } from '@angular/common/http';
+import { XcF200TableComponent } from './xc-f200-table/xc-f200-table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    XcCreateDialogComponent
+    XcCreateDialogComponent,
+    XcF200TableComponent,
   ],
   imports: [
     BrowserModule,
@@ -21,9 +29,15 @@ import {MatInputModule} from '@angular/material/input';
     MatCardModule,
     MatDialogModule,
     BrowserAnimationsModule,
+    MatButtonModule,
+    MatDatepickerModule,
+    ReactiveFormsModule,
+    MatNativeDateModule,
+    MatMomentDateModule,
+    HttpClientModule
   ],
   entryComponents: [
-    XcCreateDialogComponent
+    XcCreateDialogComponent,
   ],
 
   providers: [],

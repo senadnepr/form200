@@ -17,8 +17,8 @@ export class AppComponent {
 
   openDialog(): void {
     const dialogRef = this.dialog.open(XcCreateDialogComponent, {
-      width: '250px',
-      height: '300px'
+      width: 'auto',
+      height: 'auto'
     });
     console.log('The dialog was open');
   }
