@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import {Observable} from 'rxjs';
+// import {Observable} from 'rxjs';
+import {Observable} from 'rxjs/internal/Observable';
+
 import {catchError, tap} from 'rxjs/operators';
 
 @Injectable({
@@ -10,7 +12,7 @@ export class XcServiceService {
 
   constructor(private http: HttpClient) { }
 
-  private f200jsonUrl = 'assets/xcfiles.json';
+  private f200jsonUrl = 'assets/responce.json';
   // private f200jsonUrl = 'https://api.airtable.com/v0/appgVTix76WgWvjRQ/xcfiles?api_key=key4U3BbeXwLMdTGd';
   private f200excellUrl = 'https://api.airtable.com/v0/app5BmCRNauW3PZwl/Магазин?';  // URL to web api
 
@@ -25,7 +27,8 @@ export class XcServiceService {
     // const options = { headers: headers1, params: params1 };
     // const url = `${this.f200jsonUrl}/${date}`;
     const url = `${this.f200jsonUrl}`;
-    console.log('in http');
+    // const url = this.f200excellUrl;
+    console.log('in http ' + url);
     return this.http.get(url);
   }
 }

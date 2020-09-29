@@ -1,0 +1,134 @@
+[
+  {
+    "ekp": "AD0074",
+    "ku": null,
+    "clientTypeF200": 1,
+    "ref_file": "2020.XC0CIH63.001"
+  },
+  {
+    "ekp": "AD0074",
+    "ku": "26",
+    "clientTypeF200": 1,
+    "ref_file": "2020.XC0CIH63.001"
+  },
+  {
+    "ekp": "AD0074",
+    "ku": "26",
+    "clientTypeF200": 3,
+    "ref_file": "2020.XC0CIH63.001"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": null,
+    "clientTypeF200": 1,
+    "ref_file": "2020.XC0CIH5S.002"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": null,
+    "clientTypeF200": 1,
+    "ref_file": "2020.XC0CIH5S.002"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": null,
+    "clientTypeF200": 1,
+    "ref_file": "2020.XC0CIH5T.001"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": null,
+    "clientTypeF200": 1,
+    "ref_file": "2020.XC0CIH5T.001"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": null,
+    "clientTypeF200": 3,
+    "ref_file": "2020.XC0CIH5F.001"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": null,
+    "clientTypeF200": 3,
+    "ref_file": "2020.XC0CIH62.003"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": "1",
+    "clientTypeF200": 3,
+    "ref_file": "2020.XC0CIH5F.001"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": "1",
+    "clientTypeF200": 3,
+    "ref_file": "2020.XC0CIH62.003"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": "2",
+    "clientTypeF200": 3,
+    "ref_file": "2020.XC0CIH5F.001"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": "3",
+    "clientTypeF200": 3,
+    "ref_file": "2020.XC0CIH5F.001"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": "3",
+    "clientTypeF200": 3,
+    "ref_file": "2020.XC0CIH62.003"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": "8",
+    "clientTypeF200": 3,
+    "ref_file": "2020.XC0CIH5F.001"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": "13",
+    "clientTypeF200": 3,
+    "ref_file": "2020.XC0CIH5F.001"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": "15",
+    "clientTypeF200": 1,
+    "ref_file": "2020.XC0CIH5Q.001"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": "18",
+    "clientTypeF200": 1,
+    "ref_file": "2020.XC0CIH62.004"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": "20",
+    "clientTypeF200": 3,
+    "ref_file": "2020.XC0CIH5F.001"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": "25",
+    "clientTypeF200": 3,
+    "ref_file": "2020.XC0CIH5F.001"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": "26",
+    "clientTypeF200": 1,
+    "ref_file": "2020.XC0CIH5R.001"
+  },
+  {
+    "ekp": "AD0075",
+    "ku": "26",
+    "clientTypeF200": 1,
+    "ref_file": "2020.XC0CIH5S.003"
+  }
+]

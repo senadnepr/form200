@@ -11,7 +11,8 @@ import {XcFile} from '../xcFile';
 })
 export class XcF200TableComponent implements OnInit {
   dateString: string;
-  xcFiles: XcFile[] = [];
+  // xcFiles: XcFile[] = [];
+  public xcFiles: XcFile[] = [];
 
   constructor(public dialogRef: MatDialogRef<XcF200TableComponent>,
               public service: XcServiceService,
@@ -19,14 +20,18 @@ export class XcF200TableComponent implements OnInit {
 
   ngOnInit(): void {
 
-    // const f200json = this.service.getf200json(this.dateString).subscribe(value => {
-    //     console.log('Value ' + value.toString());
-    //   },
-    //   error => {
-    //     console.log('Error ' + error.toString());
-    //   });
-    this.service.getf200json(this.dateString).subscribe(data => this.xcFiles = data.xcfiles );
-    console.log('data ' + this.xcFiles.toLocaleString());
+    const f200json = this.service.getf200json(this.dateString).subscribe(value => {
+        this.xcFiles = value;
+        // tslint:disable-next-line:only-arrow-functions
+        this.xcFiles.forEach(function( xc){
+          console.log('xcFile ' + xc.ref_file);
+        }
+      );
+      },
+      error => {
+        console.log('Error ' + error.toString());
+      });
+    // this.service.getf200json(this.dateString).subscribe((data: XcFile[]) => {this.xcFiles = data; });
   }
   // tslint:disable-next-line:typedef
   close() {
